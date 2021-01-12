@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+    background-color: #E9E9E9;
+     height: 100%;
+}
+
+.container-fluid {
+    padding-left: 0;
+    height: 100%;
+}
+
+/*Profile Card 3*/
+.profile-card-3 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    border: none;
+}
+
+.profile-card-3 .background-block {
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+.profile-card-3 .background-block .background {
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.9;
+    -webkit-filter: blur(0.5px);
+    filter: blur(0.5px);
+    -webkit-transform: scale(1.8);
+    transform: scale(2.8);
+}
+
+.profile-card-3 .card-content {
+    width: 100%;
+    padding: 15px 25px;
+    color: white;
+    float: left;
+    height: 50%;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    /* z-index: 9999; */
+  }
+  .profile-card-3 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 46%;
+    left: 50%;
+    max-width: 80px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    /* z-index:99999; */
+  }
+  .profile-card-3 h2 {
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.profile-card-3 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.profile-card-3 i:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+.card-profile {
+    padding: 0;
+}
+
+#accordion .card {
+    border: 0;
+}
+
+#accordion .card-header {
+    border-bottom: 0;
+    background-color: #FDFDFD;
+}
+
+#accordion .card-header:hover {
+    color: #009688;
+}
+
+#accordion li:hover {
+    color: #009688;
+}
+
+#accordion .list-group-item {
+    border: 0;
+    background-color: #FDFDFD;
+}
+
+#accordion h2 {
+    display: inline;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#accordion .card-body {
+    background-color: #FDFDFD;
+    padding: 0;
+    padding-left: 1.25rem;
+}
+
+.top-table {
+    background-color: #009688;
+}
+
+.menu-item i {
+    color: #86797B;
+}
+
+.menu-content li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #75787C;
+}
+
+.profile-menu {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid gray;
+}
+
+
+/* datatable */
+.dataTables_wrapper .dataTables_filter input {
+    border: 0px;
+    border-bottom: 1px solid #009688;
+    padding: 5px;
+    background-color: transparent;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+    outline: none;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 0px;
+    border-bottom: 1px solid #009688;
+    padding: 5px;
+    background-color: transparent;
+    padding: 4px;
+}
+
+.dataTables_wrapper .dataTables_length select:focus {
+    outline: none;
+}
+
+#c-if-gender {
+    background-color: #E9ECEF;
+}
+
+.custom-select1 {
+    position: absolute;
+    width: 200px;
+    overflow: hidden;
+    background: #fff;
+    right: 48px;
+    top: 13px;
+    z-index: 9;
+    transition: all .3s ease-in-out;
+}
+
+.hdn {
+    width: 0;
+    background: #009688;
+    border: 0px;
+}
+
+datalist::-ms-expand {
+    display: none;
+}
+
+#reportInjectionResult_length {
+    display: none;
+}
+
+#reportInjectionResult_filter {
+    display: none;
+}
+#reportInjectionCustomer_length{
+display: none;
+}
+#reportInjectionCustomer_filter{
+display: none;
+}
+#reportInjectionVaccine_length{
+display: none;
+}
+#reportInjectionVaccine_filter{
+display: none;
+}
+table.dataTable.no-footer {
+    border-bottom: 0px solid #111;
+    margin-bottom: 15px;
+}
+
+.mb-0 {
+    cursor: pointer;
+}
+
+.list-group a:hover {
+    text-decoration: none;
+}
+#customer-list:hover, #customer-add:hover {
+    cursor: pointer;
+}
+.main{
+	height: 100%;
+}
+#dashboard{
+	background-color: #FDFDFD;
+	padding-right: 0;
+}
+.mainPage .card{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#mainContent .card{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#btnCaptcha{
+	background: none;
+    border: solid 1.7px #CCD4DA;
+    border-radius: 5px;
+}
+.swal-button--confirm{
+	background-color: #009688;
+}
+td a:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: #808080;
+}
+.form-login {
+    margin: 20px;
+}
+.btn-login{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #60C7C1;
+    font-size: 22px;
+}
+.card-login{
+    margin: 100px auto; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+label.error {
+    display: block;
+    color:red;
+    margin-top: 10px;
+}
+.card-header{
+    color: #9A99A4;
+    background-color: #ECF0F1;
+}
+.header-login{
+    margin-top: 4rem;
+}
+.header-login h2{
+    color: #9A99A4;
+}
+.icon-login{
+    background-color: #60C7C1;
+    padding: 20px 30px;
+    
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: 33%;
+}
+label.errorLogin {
+    display: block;
+    color: brown;
+    margin-top: 10px;
+    margin: 1% 3% 1% 3%;
+    background: #F7DDDD;
+}

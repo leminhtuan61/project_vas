@@ -1,0 +1,29 @@
+#btnSave{
+  background-color: #2B982B;
+  width: 80px;
+  border: 0;
+}
+#btnReset{
+  background-color: #00B0E4;
+  width: 80px;
+  border: 0;
+}
+#btnCancel {
+  background-color: #FF9600;
+  width: 80px;
+  border: 0;
+}
+.input-group-text {
+    background-color: white;
+    border: none;
+}
+.error {
+	display: block;
+	color: #ff0000;
+	font-style: italic;
+}
+#msg-server {
+	font-size:18px;
+	font-style: italic;
+	width: auto;
+}
